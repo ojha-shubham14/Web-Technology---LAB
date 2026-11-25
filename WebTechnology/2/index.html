@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <title>Name of the project</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width:fit-content;
+            font-family: 'Times New Roman';
+        }
+        th,td{
+            border:1px solid #444444;
+            padding:1px 4px;
+            text-align: center;
+        }
+
+        caption{
+            font-size: 22px;
+            font-weight: bold;
+            padding:10px;
+        }
+
+        thead th{
+            background-color: #2C3E50;
+            color: #FFFFFF;
+        }
+
+        tfoot td{
+            background-color: #2C3E50;
+            color: #ffffff;
+            font-style: italic;
+            text-align: center;
+        }
+        .lab{
+            background-color: #ffd8a8;
+            font-weight: bold;
+        }
+
+        .elective{
+            background-color: #D0bFFF;
+            font-weight: bold;
+        }
+        .lunch{
+            background-color: #fff3bf;
+            font-weight: bold;
+        }
+        .row-even{
+            background-color: #D0bFFF;
+        }
+        .row-odd{
+            background-color:lightpink
+        }
+    </style>
+</head> 
+
+<body>
+
+</body>
+    <table>
+        <caption>Time Table</caption>
+        <caption>1AY24CS201</caption>
+        <thead>
+            <tr>
+                <th>Day/Time</th>
+                <th>9:00-10:00</th>
+                <th>10:00-11:00</th>
+                <th>11:00-12:00</th>
+                <th>12:00-1:00</th>
+                <th>1:00-2:00</th>
+                <th>2:00-3:00</th>
+                <th>3:00-4:00</th>
+            </tr>
+        </thead>
+
+        <tr class = "row-odd">
+            <td>Monday</td>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>Chem</td>
+            <td class="lunch" rowspan="6">Lunch</td>
+            <td>English</td>
+            <td class="lab" colspan="2">AI lab</td>
+        </tr>
+
+        <tr class="row-even">
+            <td>Tuesday</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>AI</td>
+            <td>Web Tech</td>
+        </tr>
+        
+        <tr class="row-odd">
+            <td>Wednesday</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>AI</td>
+            <td>Web Tech</td>
+        </tr>
+
+        <tr class="row-even">
+            <td>Thursday</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>AI</td>
+            <td>Web Tech</td>
+        </tr>
+
+        <tr class="row-odd">
+            <td>Friday</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>AI</td>
+            <td>Web Tech</td>
+        </tr>
+
+        <tr class="row-even">
+            <td>Saturday<td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>AI</td>
+            <td>Web Tech</td>
+        </tr>
+
+    </table>
+</html>
