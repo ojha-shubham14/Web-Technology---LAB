@@ -1,0 +1,21 @@
+.Id-Card{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border:2px solid black;
+    margin:auto;
+}
+.Id-Card img{
+    width: 120px;
+    height: 140px;
+
+}
+.id-content{
+    color:black;
+    font-family: Times New Roman;
+}
+
+#AIT{
+    color:blue
+}
