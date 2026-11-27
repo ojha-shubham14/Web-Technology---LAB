@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(1AY24CS201)</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .container {
+        background-color: white;
+        padding: 25px;
+        width: 350px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .button{
+            border-radius:3px;
+            border: none;
+            padding: 3px 5px;
+            margin:5px;
+            margin-top: 15px;
+        }
+
+        .button:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <input type="number" id="num1" placeholder="Enter number 1:">
+        <input type="number" id="num2" placeholder="Enter number 2:">
+        <div class="button">
+            <button onclick="calculate('sum')">SUM</button>
+            <button onclick="calculate('difference')">DIFFERENCE</button>
+            <button onclick="calculate('multiplication')">MULTIPLICATION</button>
+            <button onclick="calculate('division')">DIVISION</button>
+            <button onclick="calculate('modulus')">MODULUS</button>
+            <button onclick="calculate('square-root')">SQUARE-ROOT</button>
+            <button onclick="calculate('square')">SQUARE</button>
+        </div>
+        <div class="result">
+            <h2>Result:<span id="result"></span></h2>
+        </div>
+    </div>
+    <script src="6.js"></script>    
+</body>
+</html>
