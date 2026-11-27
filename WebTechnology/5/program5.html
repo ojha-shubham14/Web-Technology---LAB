@@ -2,163 +2,155 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>Newspaper</title>
-<style>
-body{
-	background-color:#f0f0f0;
-	margin:0;
-}
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>(1AY24CS201)</title>
+	<style>
+		.Main{
+			display: flex;
+			flex:1;
+		}
+		header{
+			background-color: black;
+			color:whitesmoke;
+			text-align: center;
+			font-size: 2em;
+			padding: 1px;
+		}
 
-header{
-	background-color:#333;
-	color:#fff;
-	padding:1px;
-	text-align:center;
-	font-size:1.2em;
-}
+		th,td{
+            border:1px solid #444444;
+            padding:1px 4px;
+            text-align: center;
+        }
+		th{
+			background-color: grey;;
+		}
 
-nav{
-	background-color:#444;
-	color:#fff;
-	padding:5px;
-	text-align:center;
-	font-size:1.1em;
-}
+		figure{
+			text-align: center;
+			padding: 10px;
+		}
 
-nav a{
-	color:#fff;
-	margin:0 10px;
-	text-decoration:none;
-}
+		table{
+			width:100%;
+			border-collapse:collapse;
+		}
 
-.content{
-	display:flex;
-	flex:1;
-}
+		.Main-aside{
+			width: 25%;
+			padding:10px;
+			background-color: whitesmoke;
+			color: black;
+		}
 
-aside{
-	float:left;
-	width:15%;
-	padding:10px;
-	background-color:#ccf4e7;
-}
+		.main-content{
+			width:55%;
+			background-color: bisque;
+		}
 
-.side{
-	color:#00b1cd;
-}
+		body{
+			text-align: center;
+		}
 
-.main{
-	width:67%;
-	background-color:#fafafa;
-	padding:10px;
-}
-
-.main article{
-	background-color:#e0e0e0;
-	padding:5px;
-}
-
-figure{
-	padding:10px;
-	text-align:center;
-	margin:10px 0;
-}
-
-.table-aside{
-	width:25%;
-	background-color:#fff;
-	padding:10px;
-}
-
-table{
-	width:100%;
-	border-collapse:collapse;
-}
-
-
-th, td{
-	border:1px solid #ccc;
-	padding:5px;
-	text-align:center;
-}
-
-th{
-	background-color:#626060;
-	color:#fff;
-}
-
-footer{
-	background-color:#333;
-	color:#fff;
-	text-align:center;
-	padding:7px;
-}
-header h1 {
-    margin: 10px 0;    /* Reduced top and bottom spacing */
-}
-
-</style>
+	</style>
 </head>
+
 <body>
-<header>
-	<h1>INDIA TODAY</h1>
-</header>
-<nav>
-	<a href="#">Home</a>
-	<a href="#">Technology</a>
-	<a href="#">Taste of India</a>
-	<a href="#">Sports</a>
-</nav>
-<div class="content">
-	<aside>
-		<h3 style="text-align:center;">Latest News 1AY24CS201</h3>
-		<h4 class="side">INDIA NEWS 1AY24CS201</h4>
-		<p>October 23, Shubham ojha Becomes CEO of JanSahay  .</p>
-		<hr>
-		<h4 class="side">BUSINESS 1AY24CS201</h4>
-		<p>Yearly profit of JanSahay is &#8377;28,014 crores</p>
-		<hr>
-		<h4 class="side">SPORTS 1AY24CS201</h4>
-		<p>Abhishek Sharma slams Newzealand and scores a 34 ball century</p>
-	</aside>
-	<section class="main">
-		<article>
-			<h2>JanSahay CEO Shubham Ojha</h2>
-		</article>
-		<figure>
-			<img src="Shubham.jpeg" alt="Photograph of the JanSahay CEO Shubham Ojha" style="max-width:42%; height:50%";>
-			<figcaption style="font-size:small;color:#555;">
-				Executive Chairman and CEO of JanSahay, Shubham Ojha
-			</figcaption>
-		</figure>
-	</section>
-	<section class="table-aside">
-		<table>
-			<caption style="padding:15px;">Weekly Weather Forecast</caption>
-			<thead>
-				<tr><th>Date</th><th>Weather</th><th>Temperature</th></tr>
-			</thead>
-			<tbody>
-				<tr><td>21 - Oct</td><td>Scattered clouds</td><td>48&deg;C</td></tr>
-				<tr><td>22 - Oct</td><td>Scattered clouds</td><td>49&deg;C</td></tr>
-				<tr><td>23 - Oct</td><td>Scattered clouds</td><td>50&deg;C</td></tr>
-				<tr><td>24 - Oct</td><td>HeatWave</td><td>52&deg;C</td></tr>
-			</tbody>
-		</table>
-		<article>
-			<br>
-			<h3>Bengaluru Temperature Yesterday</h3>
-			<p>
-				Maximum temperature yesterday: 28&deg;C (at 14:00)<br>
-				Minimum temperature yesterday: 45&deg;C (at 13:00)<br>
-				Average temperature yesterday: 37&deg;C
-			</p>
-		</article>
-	</section>
-</div>
-<footer>
-	&copy;2026 INDIA TODAY
-</footer>
+	<header>
+		<h1>INDIA TODAY</h1>
+	</header>
+
+	<nav style="text-align: center; font-family: 'Times New Roman'; background-color: grey; color:whitesmoke">
+		<a href="#">home</a>
+		<a href="#">Technology</a>
+		<a href="#">Taste of India</a>
+		<a href="#">Sports</a>
+	</nav>
+
+	<div class="Main">
+		<aside style="float: left; width: 15%; padding: 10px; background-color: mediumaquamarine; margin-right: 2px;">
+			<h3 style="text-align: center;">
+				Latest News
+			</h3>
+
+			<h4 class="side">India News</h4>
+
+			<p>Hello this is Shubham Ojha Standing next to you because i'm not sitting next to you</p>
+			<hr></hr>
+
+			<h4 class="side">Business</h4>
+			<p>Shubham Thinking to expand his Business and now his networth seems to be more than Sheru Bhai</p>
+			<hr></hr>
+
+			<h4 class="side">Sports</h4>
+			<p>Vaibhav Sooryavanshi a 15 year old kid smashed 204 runs in 54 freaking balls what a generational talent to see in a International Match</p>
+		</aside>
+
+		<section class="main-content">
+			<article>
+				<h2>
+					JanSahay CEO Shubham Ojha 2026 pay rose by 63% to &#8377 79.1 Crore according to a filling on thursday
+
+				</h2>
+				<p>Shubham says that it is all written by god and all victories goes to the god. Thank You</p>
+			</article>
+
+			<figure>
+				<img src="ShubhamId.jpg" style="max-width: 62%;">
+				<figcaption style="font-size: small; color: black;">
+					Executive chairperson of JanSahay
+				</figcaption>
+			</figure>
+		</section>
+
+		<section class="Main-aside">
+			<table style="border-collapse: collapse; width:100%; ">
+				<caption>Weekly Weather Forcast</caption>
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Weather</th>
+						<th>Temprature</th>
+					</tr>
+				</thead>
+				
+				<tr>
+					<td>21 NOV</td>
+					<td>Cloudy</td>
+					<td>27&deg;C</td>
+				</tr>
+				<tr>
+					<td>22 NOV</td>
+					<td>Cloudy</td>
+					<td>23&deg;C</td>
+				</tr>
+				<tr>
+					<td>23 NOV</td>
+					<td>Rainy</td>
+					<td>21&deg;C</td>
+				</tr>
+				
+			</table>
+
+			<article>
+				<h3>Bengaluru Temprature Yesterday</h3>
+				<p>
+					Maximum temperature yesterday: 30&deg;C (at 16:00)
+                    <br>
+
+                    Minimum temperature yesterday: 21&deg;C (at 03:00)
+                    <br>
+
+                    Average temperature yesterday: 24&deg;C
+				</p>
+			</article>
+		</section>
+
+	</div>
+
+	<footer>
+		&copy;2024 INDIA TODAY
+	</footer>
+	
 </body>
 </html>
